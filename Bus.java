@@ -28,4 +28,9 @@ class Bus {
     return count;
   }
 
+  public void pickUpPassenger(Person person) {
+    int index = passengerCount();
+    passengers[index] = person;
+  }
+
 }
