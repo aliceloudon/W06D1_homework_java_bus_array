@@ -3,7 +3,7 @@ class Bus {
   private String final_stop;
   private Person[] passengers;
 
-  public Bus(int number, String final_stop){
+  public Bus(int number, String final_stop) {
     this.number = number;
     this.final_stop = final_stop;
     this.passengers = new Person[15];
