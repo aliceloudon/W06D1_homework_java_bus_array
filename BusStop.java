@@ -1,10 +1,10 @@
 class BusStop {
-  // private Bus;
   private Person[] queue;
+  private Bus bus;
 
   public BusStop() {
-    // this.schedule = new Bus[4];
     this.queue = new Person[8];
+    this.bus = new Bus (11, "Ocean Terminal");
   }
 
   public int queueCount() {
@@ -20,6 +20,14 @@ class BusStop {
   public void addPassenger(Person person) {
     int index = queueCount();
     queue[index] = person;
+  }
+
+  public void removePassengerFromQueue(Person person) {
+
+  }
+
+  public void movePassengerFromQueueToBus() {
+
   }
 
 }

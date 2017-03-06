@@ -3,8 +3,8 @@ import org.junit.*;
 
 public class BusStopTest {
   BusStop bus_stop;
-  // Bus bus;
   Person person;
+  Bus bus;
 
   @Before
   public void before() {
