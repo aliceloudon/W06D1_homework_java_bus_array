@@ -21,4 +21,9 @@ public class BusTest {
     assertEquals( "Ocean Terminal", bus.getFinalStop() );
   }
 
+  @Test
+  public void busStartsEmpty() {
+    assertEquals( 0, bus.passengerCount() );
+  }
+
 }

@@ -17,4 +17,15 @@ class Bus {
     return this.final_stop;
   }
 
+  public int passengerCount() {
+    int count = 0;
+    for (Person person : passengers) { 
+    // passengers is the array
+      if (person != null) {
+        count++;
+      }
+    }
+    return count;
+  }
+
 }
